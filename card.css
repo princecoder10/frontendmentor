@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+     position: fixed;
+     bottom: 0;
+ }
+.attribution a { 
+     color: hsl(228, 45%, 44%); 
+}
+  
+body{
+    position: relative;
+    
+    border: 1px;
+    width: 100%;
+    max-width: 110%;
+    
+    
+}
+.bg-main img{
+     
+     width: 100%;
+     margin-left: -10px;
+     margin-top: -20px;
+ } 
+ 
+ .container{
+     display:flex;
+     width: 40%;
+     
+     
+ }
+  
+.card-back img{
+    
+    width: 278.96px;
+}
+.card-front img{
+    width: 278.96px;
+}  
+  
+.card-back{
+    position: absolute;
+    top: 2.55%;
+    left: 17%;
+}
+
+.cvc{
+    color: white;
+    margin-top: -90px;
+    margin-left: 230px;
+    font-size: 10px;
+}
+
+.card-front{
+    position: absolute;
+    top: 42.5%;
+    left: 10px;    
+}
+
+p img{
+    position: absolute;
+    top: 5.59%;
+    left: 7.98%;
+}
+   
+#card_info{
+    color: white;
+    position: absolute;
+    top: 0;
+}   
+
+#card-no{
+    color: white;
+    margin-top: 33.33%;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.user-name{
+    color: white;
+    font-family: verdana;
+    font-variant: small-caps;
+    font-size: 12.65px;
+    margin-top: -2%;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.MM{
+    color: white;
+    margin-top: -13.74%;
+    margin-left: 90%;
+}
+
+.divider{
+   color: white; 
+    position: fixed;
+    top: 21.868%;
+    left: 50.42%;
+    
+}
+
+.YY{
+    color: white;
+    margin-top: -16%;
+    margin-left: 102.42%;
+}
+
+.card-details{
+    position: absolute;
+    bottom: 700;
+}
+
+form{
+    position: absolute;
+    bottom: 900;
+    margin: auto;
+    width: 500px;
+}
+
+
+
+label{
+    color: hsl( 273, 94%, 30%);
+}
+
+#main-cardholder{
+    margin-top: 20%;
+      
+}
+
+input{
+    width: 65%;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 5px;
+   
+    
+}
+
+
+  
+.CVC input{
+    width: 44.49%;
+}
+
+.card-no, #Exp-dt{
+    border: 1px solid;
+    margin-top: 30px;
+    
+    
+}
+
+.CVC{
+    margin-top: -100.62px;
+    margin-left: 180px;
+}
+
+#Exp-dt{
+    margin-left: -20px;
+}
+
+.card-no{
+    margin-left: -130px;
+}
+.container p{
+    color: hsl( 273, 94%, 30%);
+    margin-top: -17.96px;
+    margin-left: 40px;
+    
+    
+}
+
+button{
+    color: white;
+    background-color: purple;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    margin-left: -186px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+}
+button:hover{
+    background-color: hsl(278, 68%, 11%, 0.8 )
+}
+
+
+@media screen and (max-width:400%){
+    
+}
+
+label{
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.CVC p{
+    color: hsl( 273, 94%, 30%);
+    text-align: justify;
+    margin-top: 30px;
+}
+
+input::placeholder{
+    font-weight: 300;
+}
+
+.error-msg, card-no-error, card-MM-error, card-YY-error,card-CVC-error{
+    color: white;
+    font-weight: 500;
+}
+
+.card-MM-error, card-YY-error,card-CVC-error{
+    letter-spacing: 1px; 
+}
